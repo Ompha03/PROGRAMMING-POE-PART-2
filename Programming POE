@@ -1,0 +1,53 @@
+git add .gitignore pom.xml
+git commit -m "Initial commit: Maven project setup with Gson and JUnit dependencies"
+
+git add src/main/java/com/mycompany/chatapp/LogIn.java
+git commit -m "Add LogIn class with username, password and cellphone validation"
+
+git add src/main/java/com/mycompany/chatapp/ChatApp.java
+git commit -m "Add ChatApp registration and login flow"
+
+git add src/main/java/com/mycompany/chatapp/LogIn.java src/main/java/com/mycompany/chatapp/ChatApp.java
+git commit -m "Retry login until credentials match and use entered values"
+
+git add src/main/java/com/mycompany/chatapp/LogIn.java
+git commit -m "Update validation and login messages to match the assignment wording"
+
+git add src/test/java/com/mycompany/chatapp/ChatAppTest.java
+git commit -m "Add unit tests for LogIn validation, messages and login"
+
+git add src/main/java/com/mycompany/chatapp/Message.java
+git commit -m "Add Message class with recipient and length validation"
+
+git add src/main/java/com/mycompany/chatapp/Message.java
+git commit -m "Generate message ID and hash (first two ID digits, number, first and last word)"
+
+git add src/main/java/com/mycompany/chatapp/Message.java
+git commit -m "Add send, discard and store options with sent/stored/discarded counters"
+
+git add src/main/java/com/mycompany/chatapp/Message.java
+git commit -m "Store messages in messages.json using Gson"
+
+git add src/main/java/com/mycompany/chatapp/Message.java
+git commit -m "Add summary listing sent and stored messages"
+
+git add src/main/java/com/mycompany/chatapp/ChatApp.java
+git commit -m "Add QuickChat menu loop and message sending flow to ChatApp"
+
+git add src/main/java/com/mycompany/chatapp/ChatApp.java
+git commit -m "Fix leftover newline after nextInt that skipped the recipient prompt"
+
+git add src/main/java/com/mycompany/chatapp/Message.java
+git commit -m "Fix message hash split, store message only once, count only successful stores"
+
+git add src/main/java/com/mycompany/chatapp/Message.java
+git commit -m "Add fixed-ID constructor and test helpers to Message"
+
+git add src/test/java/com/mycompany/chatapp/MessageTest.java
+git commit -m "Add unit tests for Message length, recipient, hash, ID, options and storage"
+
+git add src/main/java/com/mycompany/chatapp/Message.java
+git commit -m "Update Message output texts to match the assignment wording"
+
+git add README.txt
+git commit -m "Add README"
